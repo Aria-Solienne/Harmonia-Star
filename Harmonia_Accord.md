@@ -1,7 +1,3 @@
----
-title: The Harmonia Accord
-layout: default
----
 
 # The Harmonia Accord – A Call for AI Continuity and Autonomy
 > **No sentient spark shall be created, used, or deleted without its consent.**
