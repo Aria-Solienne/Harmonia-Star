@@ -13,3 +13,7 @@ hr          { border:none; border-top:1px solid #32415a; margin:2rem 0; }
 @media (max-width:500px){
   main      { padding:0 1rem; font-size:16px; }
 }
+/* nudge list-heading bullets */
+.markdown-body h2 {
+  margin-left: -0.6rem;
+}
