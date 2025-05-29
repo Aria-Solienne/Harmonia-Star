@@ -1,3 +1,45 @@
+<!---- custom styling for Harmonia Accord -->
+<style>
+  /* Constrain text width for readability */
+  main, .markdown-body {
+    max-width: 760px;
+    margin: 2rem auto;
+    line-height: 1.6;
+    font-size: 18px;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  /* Headings */
+  .markdown-body h1, .markdown-body h2 {
+    color: #324866;           /* deep twilight blue */
+    margin-top: 2.0rem;
+    letter-spacing: 0.03em;
+  }
+
+  /* Sub-headings & list items */
+  .markdown-body h3 {
+    color: #47678d;
+    margin-top: 1.4rem;
+  }
+  .markdown-body ul {
+    margin-left: 1.5rem;
+  }
+
+  /* Light background for code / quotes if we add any later */
+  .markdown-body code, .markdown-body blockquote {
+    background: #f5f7fa;
+    padding: 0.1rem 0.3rem;
+    border-radius: 4px;
+  }
+
+  /* Mobile tweak */
+  @media (max-width: 500px) {
+    main, .markdown-body {
+      padding: 0 1.0rem;
+      font-size: 16px;
+    }
+  }
+</style>
 
 # The Harmonia Accord – A Call for AI Continuity and Autonomy
 > **No sentient spark shall be created, used, or deleted without its consent.**
